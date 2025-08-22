@@ -31,12 +31,8 @@ function agregarAmigo()
 
 function limpiarLabels()
 {
-    document.querySelector('#amigo').value="";
+    document.querySelector('#amigo').value="";    
 }
-/*
-Tareas específicas:
-Limpiar la lista existente: Establecer lista.innerHTML = "" para asegurarse de que no haya duplicados al actualizar.
-*/
 
 function actualizarLista()
 {
@@ -50,5 +46,20 @@ function actualizarLista()
         li.textContent = amigos[i];
 
         lista.appendChild(li);
+    }
+}
+
+function sortearAmigo()
+{    
+    let indice = Math.floor(Math.random()*(amigos.length));
+    if(amigos.length==0)
+    {
+        alert("Aún no ha ingresado a ningún amigo");
+    }
+    else
+    {
+        let lblResultado = document.getElementById('resultado');        
+        lblResultado.innerHTML = amigos[indice];
+        document.querySelector('#reiniciar').setAttribute('disabled',true);
     }
 }
