@@ -60,6 +60,7 @@ function sortearAmigo()
     {
         let lblResultado = document.getElementById('resultado');        
         lblResultado.innerHTML = amigos[indice];
-        document.querySelector('#reiniciar').setAttribute('disabled',true);
+        document.querySelector('#aniadir').setAttribute('disabled',true);
+        document.querySelector('#amigo').setAttribute('disabled',true);
     }
 }
