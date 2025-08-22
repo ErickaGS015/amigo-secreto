@@ -52,15 +52,3 @@ function actualizarLista()
         lista.appendChild(li);
     }
 }
-
-function verificarDuplicidad()
-{
-    for(let i=0; i<amigos.length; i++)
-    {
-        if(amigos[i]==)
-        {
-
-        }
-    }
-    
-}
