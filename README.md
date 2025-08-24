@@ -34,3 +34,28 @@
   <li> CSS </li>  
   <li> JavaScript </li>  
 </ul>
+
+
+<h2>Ejecución: </h2>
+<p>Descarga el proyecto desde GitHub dando clic en Descargar zip</p>
+<img width="722" height="291" alt="image" src="https://github.com/user-attachments/assets/77b410a7-38b8-4731-9e47-08aaee1d3c3e" />
+
+<p>O clonando el repositorio</p>
+<ul>
+  <li>1. Clona el repositorio con el comando: 
+    <br>git clone https://github.com/ErickaGS015/amigo-secreto.git
+  </li>
+
+  <li>2. Localizar el proyecto en la carpeta
+  </li>
+
+  <li>3. Abrir el index en visual studio y dar clic en "open with live server"
+    <br><br>
+    <img width="447" height="408" alt="image" src="https://github.com/user-attachments/assets/b50ec4e5-a1d5-4d81-829b-aa86ad8a4354" />
+  </li>
+
+  <p>Nota: en caso de notener visual studio, simplemente localizar la carpeta y dar clic en el index.html</p>
+  <img width="233" height="83" alt="image" src="https://github.com/user-attachments/assets/5e054917-924d-4fe4-b025-0408f2f44fd4" />
+
+  
+</ul>
