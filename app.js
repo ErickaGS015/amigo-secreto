@@ -9,7 +9,8 @@ function asignarTxtElemento(elemento, texto)
 function agregarAmigo()
 {    
     let lblAmigo = document.getElementById('amigo').value;
-    if(lblAmigo != "")
+    
+    if(lblAmigo.trim() != "")
     {
         if(!amigos.includes(lblAmigo))
         {
